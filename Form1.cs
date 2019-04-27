@@ -47,10 +47,6 @@ namespace lightbrowse
             webView1.GoBack();
         }
 
-        private void TextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
         public static string UrlEncodeExtended(string value)
         {
             char[] chars = value.ToCharArray();
@@ -68,9 +64,5 @@ namespace lightbrowse
            webView1.Navigate(momgay);
         }
 
-        private void Panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
     }
 }
