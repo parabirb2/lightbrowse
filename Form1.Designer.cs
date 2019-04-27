@@ -83,7 +83,6 @@
             this.textBox1.Size = new System.Drawing.Size(1151, 22);
             this.textBox1.TabIndex = 1;
             this.textBox1.Text = "Enter Search Query or URL";
-            this.textBox1.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
             // 
             // button1
             // 
